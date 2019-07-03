@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "projectName": "FinancialFunctions",
+        "projectPath": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hesapkurdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repository.hesapkurdu.com:9191/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+        "projectName": "FinancialFunctions.Tests",
+        "projectPath": "C:\\Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+        "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Hesapkurdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://repository.hesapkurdu.com:9191/nuget/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+                "projectPath": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "ExcelFinancialFunctions": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.7.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.0.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
