@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {}
+    "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+    "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
-        "projectName": "FinancialFunctions",
-        "projectPath": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
-        "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\hk-financial-functions\\src\\FinancialFunctions\\obj\\",
+        "projectUniqueName": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "projectName": "HkFinancialFunctions",
+        "projectPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "packagesPath": "C:\\Users\\Semih Senvardar\\.nuget\\packages\\",
+        "outputPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Hesapkurdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Semih Senvardar\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://repository.hesapkurdu.com:9191/nuget/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
