@@ -2,6 +2,7 @@ HkFinancialFunctions
 ===
 Calculation Utility For Financial Operations :package:
 
+[![Build Status](https://travis-ci.org/senvardarsemih/hk-financial-functions.svg?branch=master)](https://travis-ci.org/senvardarsemih/hk-financial-functions)
 [![Build status](https://ci.appveyor.com/api/projects/status/kso6tmjv4oamwjmd?svg=true)](https://ci.appveyor.com/project/senvardarsemih/hk-financial-functions)
 ![Nuget](https://img.shields.io/nuget/v/HkFinancialFunctions.svg?style=flat-square)
 ![Nuget](https://img.shields.io/nuget/dt/HkFinancialFunctions.svg)
