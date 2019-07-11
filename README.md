@@ -20,7 +20,7 @@ So we converted base financial functions from F# to C# and pack it with nuget so
 We are **_Hesapkurdu R&D Team_**.You can check our services at [Hesapkurdu](https://www.hesapkurdu.com/) 
 You can find out who we are & what we are doing at [Hesapkurdu Team](https://github.com/orgs/Hesapkurdu/teams/hesapkurdu)
 
-### Where can I get it?
+## Where can I get it?
 
 First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget).
 Then install package via package manager console with this command.
