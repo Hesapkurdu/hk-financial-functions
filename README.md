@@ -4,6 +4,7 @@ Calculation Utility For Financial Operations :package:
 
 [![Build Status](https://travis-ci.org/senvardarsemih/hk-financial-functions.svg?branch=master)](https://travis-ci.org/senvardarsemih/hk-financial-functions)
 [![Build status](https://ci.appveyor.com/api/projects/status/kso6tmjv4oamwjmd?svg=true)](https://ci.appveyor.com/project/senvardarsemih/hk-financial-functions)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=alert_status)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
 ![Nuget](https://img.shields.io/nuget/v/HkFinancialFunctions.svg?style=flat-square)
 ![Nuget](https://img.shields.io/nuget/dt/HkFinancialFunctions.svg)
 
@@ -18,6 +19,21 @@ So we converted base financial functions from F# to C# and pack it with nuget so
 
 We are **_Hesapkurdu R&D Team_**.You can check our services at [Hesapkurdu](https://www.hesapkurdu.com/) 
 You can find out who we are & what we are doing at [Hesapkurdu Team](https://github.com/orgs/Hesapkurdu/teams/hesapkurdu)
+
+### Where can I get it?
+
+First, [install NuGet](http://docs.nuget.org/docs/start-here/installing-nuget).
+Then install package via package manager console with this command.
+
+```
+PM> Install-Package HkFinancialFunctions
+```
+
+You can also get it from .net cli.
+
+```
+> dotnet add package HkFinancialFunctions
+```
 
 ## Contributing
 
