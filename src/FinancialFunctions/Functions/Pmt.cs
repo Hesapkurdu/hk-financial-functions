@@ -20,7 +20,7 @@ namespace FinancialFunctions.Functions
                 auxiliaryRate1 = 1 + rate;
             else
                 auxiliaryRate1 = 1;
-            var auxiliaryRate2 = (double)Math.Pow((double)(rate + 1), numberPeriods);
+            var auxiliaryRate2 = Math.Pow(rate + 1, numberPeriods);
             return (-futureValue - presentValue * auxiliaryRate2) / (auxiliaryRate1 * (auxiliaryRate2 - 1)) * rate;
         }
     }
