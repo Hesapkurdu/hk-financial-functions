@@ -30,11 +30,11 @@ namespace FinancialFunctions.Functions
             var arrayUpperBound = (short)cashFlow.GetUpperBound(0);
             var presentValueReInvest = new IntPv().PresentValueInternal(reInvestRate, cashFlow, 1);
             var internalReInvestedRate = -presentValueReInvest *
-                                         (double)Math.Pow((double)reInvestRate + 1, arrayUpperBound) /
+                                         Math.Pow(reInvestRate + 1, arrayUpperBound) /
                                          (presentValueFinance * (financeRate + 1));
             if (internalReInvestedRate < 0)
                 throw new ArgumentException("Argument Invalid Value");
-            return (double)(Math.Pow((double)internalReInvestedRate, (double)1 / (arrayUpperBound - 1)) - 1);
+            return Math.Pow(internalReInvestedRate, (double)1 / (arrayUpperBound - 1)) - 1;
         }
     }
 }

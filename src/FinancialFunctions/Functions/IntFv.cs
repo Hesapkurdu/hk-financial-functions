@@ -24,7 +24,7 @@ namespace FinancialFunctions.Functions
                 auxiliaryRate1 = 1 + rate;
             else
                 auxiliaryRate1 = 1;
-            var auxiliaryRate2 = (double)Math.Pow((double)(1 + rate), numberPeriods);
+            var auxiliaryRate2 = Math.Pow(1 + rate, numberPeriods);
             return -presentValue * auxiliaryRate2 - payment / rate * auxiliaryRate1 * (auxiliaryRate2 - 1);
         }
     }

@@ -327,3 +327,9 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+
+coverage\.xml
+
+tests/FinancialFunctions\.Tests/obj/
+
+src/FinancialFunctions/obj/

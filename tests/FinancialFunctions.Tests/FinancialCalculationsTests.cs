@@ -88,6 +88,167 @@ namespace FinancialFunctions.Tests
             isEqual.Should().BeTrue();
         }
 
+        [Fact]
+        public void EvaluateRateShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.EvaluateRate(1.4, 48, 60000, 120000, 0, DueDate.EndOfPeriod));
 
+            //Assert
+            exception.Should().BeNull();
+        }
+
+
+        [Fact]
+        public void FutureValueShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.FutureValue(1.4, 48, 60000, 120000, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void FutureValueInternalShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.FutureValueInternal(1.4, 48, 60000, 120000, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void PresentValueInternalShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.InternalPresentValue(1.4, new[] { 1.2, 2 }, 1));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void InterestPaymentShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.InterestPayment(1.4, 24, 48, 100000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+
+        [Fact]
+        public void NumberOfPeriodsShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.NumberOfPeriods(1.4, 50000, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void NetPresentValueShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.NetPresentValue(1.4, new[] { 1.2, 2 }));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void NetPresentValueShouldThrowExceptionWithNullParameters()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.NetPresentValue(1.4, null));
+
+            //Assert
+            exception.Should().NotBeNull();
+        }
+
+        [Fact]
+        public void OptionalPresentValueShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.PresentValueOptional(new[] { 1.2, 2 }, 1.4));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void PaymentInternalShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.Payment(1.4, 48, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void CapitalPaymentShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.CapitalPayment(1.4, 48, 60, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void CapitalPaymentShouldThrowExceptionWhenPeriodIsLessOrEqualToZero()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.CapitalPayment(1.2, 0, 60, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().NotBeNull();
+        }
+
+
+        [Fact]
+        public void PresentValueShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.PresentValue(1.4, 48, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void CalculateRateShouldCalculatedWithoutError()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.Rate(36, -2000, 60000, 0, DueDate.EndOfPeriod));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void ReinvestedInternalReturnRateShouldCalculatedWithoutError()
+        {
+            //ActSSS
+            var exception = Record.Exception(() => FinancialCalculations.ReinvestedInternalReturnRate(new[] { -4.8, -20 }, 2.4, 1.8));
+
+            //Assert
+            exception.Should().BeNull();
+        }
+
+        [Fact]
+        public void ReinvestedInternalReturnRateShouldThrowExceptionWhenFinancialRateIsNegative()
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.ReinvestedInternalReturnRate(new[] { 1.2, 2 }, -1, 1.8));
+
+            //Assert
+            exception.Should().NotBeNull();
+        }
     }
 }

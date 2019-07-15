@@ -40,8 +40,8 @@ namespace FinancialFunctions.Functions
             {
                 throw new ArgumentException("Cannot Calculate Number of Periods");
             }
-            return (short)((Math.Log((double)auxiliaryFutureValue) - Math.Log((double)auxiliaryPresentValue)) /
-                            Math.Log((double)(rate + 1)));
+            return (short)((Math.Log(auxiliaryFutureValue) - Math.Log(auxiliaryPresentValue)) /
+                            Math.Log(rate + 1));
         }
     }
 }

@@ -20,7 +20,7 @@ namespace FinancialFunctions.Functions
             double auxiliaryRate1;
             if (rate == 0)
                 return presentValue + payment * numberPeriods + futureValue;
-            var auxiliaryRate2 = (double)Math.Pow((double)(rate + 1), numberPeriods);
+            var auxiliaryRate2 = Math.Pow(rate + 1, numberPeriods);
             if (due != DueDate.EndOfPeriod)
                 auxiliaryRate1 = 1 + rate;
             else
