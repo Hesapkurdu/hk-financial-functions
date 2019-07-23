@@ -6,7 +6,6 @@ Calculation Utility For Financial Operations :package:
 [![Build status](https://ci.appveyor.com/api/projects/status/kso6tmjv4oamwjmd?svg=true)](https://ci.appveyor.com/project/senvardarsemih/hk-financial-functions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=alert_status)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
 [![codecov](https://codecov.io/gh/senvardarsemih/hk-financial-functions/branch/master/graph/badge.svg)](https://codecov.io/gh/senvardarsemih/hk-financial-functions)
-
 ![Nuget](https://img.shields.io/nuget/v/HkFinancialFunctions.svg?style=flat-square)
 ![Nuget](https://img.shields.io/nuget/dt/HkFinancialFunctions.svg)
 

@@ -2,7 +2,7 @@
 
 namespace FinancialFunctions.Functions
 {
-    class Irr
+    public class Irr
     {
         /// <summary>
         ///     Returns the internal rate of return for a series of cash flows

@@ -2,7 +2,7 @@
 
 namespace FinancialFunctions.Functions
 {
-    class Npv
+    public class Npv
     {
         /// <summary>
         ///     Returns the net present value of an investment based on a discount rate and a series of future payments
