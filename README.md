@@ -5,7 +5,10 @@ Calculation Utility For Financial Operations :package:
 [![Build Status](https://travis-ci.org/senvardarsemih/hk-financial-functions.svg?branch=master)](https://travis-ci.org/senvardarsemih/hk-financial-functions)
 [![Build status](https://ci.appveyor.com/api/projects/status/kso6tmjv4oamwjmd?svg=true)](https://ci.appveyor.com/project/senvardarsemih/hk-financial-functions)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=alert_status)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
-[![codecov](https://codecov.io/gh/senvardarsemih/hk-financial-functions/branch/master/graph/badge.svg)](https://codecov.io/gh/senvardarsemih/hk-financial-functions)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=coverage)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=bugs)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=senvardarsemih_hk-financial-functions&metric=security_rating)](https://sonarcloud.io/dashboard?id=senvardarsemih_hk-financial-functions)
 ![Nuget](https://img.shields.io/nuget/v/HkFinancialFunctions.svg?style=flat-square)
 ![Nuget](https://img.shields.io/nuget/dt/HkFinancialFunctions.svg)
 
