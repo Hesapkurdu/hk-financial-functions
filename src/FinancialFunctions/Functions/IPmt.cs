@@ -3,7 +3,7 @@ using System;
 
 namespace FinancialFunctions.Functions
 {
-    class IPmt
+    public class IPmt
     {
         /// <summary>
         ///     Returns the interest payment for a given period for an investment, based on periodic constant payments and a

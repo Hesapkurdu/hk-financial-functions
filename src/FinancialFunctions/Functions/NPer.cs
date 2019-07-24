@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class NPer
+    public class NPer
     {
         /// <summary>
         ///     Returns the number of periods for an investment, based on periodic constant payments and a constant interest rate.

@@ -2,7 +2,7 @@
 
 namespace FinancialFunctions.Functions
 {
-    class ReIrr
+    public class ReIrr
     {
 
         /// <summary>

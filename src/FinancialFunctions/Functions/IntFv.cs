@@ -3,7 +3,7 @@ using System;
 
 namespace FinancialFunctions.Functions
 {
-    class IntFv
+    public class IntFv
     {
         /// <summary>
         ///     Futures the value internal.

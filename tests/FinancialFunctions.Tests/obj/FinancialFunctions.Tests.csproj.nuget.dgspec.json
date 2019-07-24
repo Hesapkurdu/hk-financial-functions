@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Hesapkurdu Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {}
+    "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
-      "version": "1.0.0",
+    "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "projectUniqueName": "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
         "projectName": "HkFinancialFunctions",
-        "projectPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
+        "projectPath": "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj",
         "packagesPath": "C:\\Users\\Semih Senvardar\\.nuget\\packages\\",
-        "outputPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\obj\\",
+        "outputPath": "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "c:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Semih Senvardar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -56,17 +56,17 @@
         }
       }
     },
-    "C:\\Hesapkurdu Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {
+    "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Hesapkurdu Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+        "projectUniqueName": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
         "projectName": "FinancialFunctions.Tests",
-        "projectPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+        "projectPath": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
         "packagesPath": "C:\\Users\\Semih Senvardar\\.nuget\\packages\\",
-        "outputPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\obj\\",
+        "outputPath": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "c:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\Semih Senvardar\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
-                "projectPath": "C:\\Hesapkurdu Repos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj"
+              "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+                "projectPath": "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj"
               }
             }
           }

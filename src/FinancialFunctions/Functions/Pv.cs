@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class Pv
+    public class Pv
     {
         /// <summary>
         ///     Returns the present value of an investment. The present value is the total amount that a series of future payments

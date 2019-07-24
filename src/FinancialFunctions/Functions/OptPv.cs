@@ -1,6 +1,6 @@
 ﻿namespace FinancialFunctions.Functions
 {
-    class OptPv
+    public class OptPv
     {
         /// <summary>
         ///     present value.

@@ -1,10 +1,10 @@
 ﻿using System;
 
-namespace FinancialFunctions.Tests
+namespace FinancialFunctions.Tests.Base
 {
     static class TestHelper
     {
-        public static bool IsEqualDoubles(double? value1, double? value2, double unimportantDifference = 0.0000001)
+        public static bool IsEqualResultsWithExcelFinancialFunctions(double? value1, double? value2, double unimportantDifference = 0.0000001)
         {
             if (!Equals(value1, value2))
             {

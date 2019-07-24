@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class Rate
+    public class Rate
     {
         /// <summary>
         ///     Returns the interest rate per period of an annuity

@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class EvalRate
+    public class EvalRate
     {
         /// <summary>
         ///     Evaluates the rate.

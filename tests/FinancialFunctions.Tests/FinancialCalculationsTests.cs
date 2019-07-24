@@ -1,6 +1,7 @@
 using System;
 using Excel.FinancialFunctions;
 using FinancialFunctions.Enums;
+using FinancialFunctions.Tests.Base;
 using FluentAssertions;
 using Xunit;
 
@@ -21,7 +22,7 @@ namespace FinancialFunctions.Tests
             var correctSut = Financial.Rate(numberPeriods, -payment, presentValue, futureValue, PaymentDue.EndOfPeriod);
             var sut = FinancialCalculations.Rate(numberPeriods, -payment, presentValue, futureValue, due);
 
-            var isEqual = TestHelper.IsEqualDoubles(sut, correctSut);
+            var isEqual = TestHelper.IsEqualResultsWithExcelFinancialFunctions(sut, correctSut);
             //Assert
             isEqual.Should().BeTrue();
         }
@@ -52,7 +53,7 @@ namespace FinancialFunctions.Tests
             var correctSut = Financial.Pv(rate, numberPeriods, payment, futureValue, PaymentDue.EndOfPeriod);
             var sut = FinancialCalculations.PresentValue(rate, numberPeriods, payment, futureValue, due);
 
-            var isEqual = TestHelper.IsEqualDoubles(sut, correctSut);
+            var isEqual = TestHelper.IsEqualResultsWithExcelFinancialFunctions(sut, correctSut);
             //Assert
             isEqual.Should().BeTrue();
         }
@@ -83,7 +84,7 @@ namespace FinancialFunctions.Tests
             var correctSut = Math.Abs(Financial.CumPrinc(rate, numberPeriods, presentValue, 1, 1, PaymentDue.EndOfPeriod));
             var sut = Math.Abs(FinancialCalculations.CapitalPayment(rate, 1, numberPeriods, presentValue, futureValue, due));
 
-            var isEqual = TestHelper.IsEqualDoubles(sut, correctSut);
+            var isEqual = TestHelper.IsEqualResultsWithExcelFinancialFunctions(sut, correctSut);
             //Assert
             isEqual.Should().BeTrue();
         }
@@ -249,6 +250,18 @@ namespace FinancialFunctions.Tests
 
             //Assert
             exception.Should().NotBeNull();
+        }
+
+        [Theory]
+        [InlineData(new[] { 1.2, 2 }, 1.4)]
+        public void InternalReturnRateShouldThrowDivideByZeroException(double[] cashFlow, double guess)
+        {
+            //Act
+            var exception = Record.Exception(() => FinancialCalculations.InternalReturnRate(cashFlow, guess));
+
+            //Assert
+            exception.Should().NotBeNull();
+            exception.GetType().Should().Be(typeof(ArgumentException));
         }
     }
 }

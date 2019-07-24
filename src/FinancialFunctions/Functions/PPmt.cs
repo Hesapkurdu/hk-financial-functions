@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class PPmt
+    public class PPmt
     {
         /// <summary>
         ///     Returns the capital payment for a given period for an investment based on periodic,

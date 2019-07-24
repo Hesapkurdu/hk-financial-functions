@@ -1,6 +1,6 @@
 ﻿namespace FinancialFunctions.Functions
 {
-    class IntPv
+    public class IntPv
     {
         /// <summary>
         ///     Returns the present value.

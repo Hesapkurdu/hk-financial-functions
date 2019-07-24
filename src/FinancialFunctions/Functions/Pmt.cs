@@ -3,7 +3,7 @@ using FinancialFunctions.Enums;
 
 namespace FinancialFunctions.Functions
 {
-    class Pmt
+    public class Pmt
     {
         /// <summary>
         ///     see Payment
