@@ -12,4 +12,8 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\FinancialFunctions.Domain\FinancialFunctions.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

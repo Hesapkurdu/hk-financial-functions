@@ -1,4 +1,4 @@
-﻿namespace FinancialFunctions.Enums
+﻿namespace FinancialFunctions.Domain.Enums
 {
     /// <summary>
     ///     Due date for financial functions
