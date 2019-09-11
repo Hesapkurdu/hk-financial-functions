@@ -4,14 +4,14 @@
     "C:\\Repos\\github\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj": {
+    "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj",
+        "projectUniqueName": "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj",
         "projectName": "FinancialFunctions.Domain",
-        "projectPath": "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj",
+        "projectPath": "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj",
         "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
-        "outputPath": "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\obj\\",
+        "outputPath": "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -84,8 +84,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj": {
-                "projectPath": "C:\\Repos\\github\\hk-financial-functions\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj"
+              "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj": {
+                "projectPath": "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions.Domain\\FinancialFunctions.Domain.csproj"
               }
             }
           }

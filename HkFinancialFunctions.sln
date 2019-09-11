@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{25F40213
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FinancialFunctions.Tests", "tests\FinancialFunctions.Tests\FinancialFunctions.Tests.csproj", "{C1CBD1B1-DE6B-43B1-8F37-A81FC6A7C5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialFunctions.Domain", "FinancialFunctions.Domain\FinancialFunctions.Domain.csproj", "{D64746CB-90C8-4F99-BE26-4771577F1518}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancialFunctions.Domain", "src\FinancialFunctions.Domain\FinancialFunctions.Domain.csproj", "{D64746CB-90C8-4F99-BE26-4771577F1518}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

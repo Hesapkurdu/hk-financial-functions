@@ -6083,8 +6083,8 @@
     },
     "FinancialFunctions.Domain/1.0.0": {
       "type": "project",
-      "path": "../../FinancialFunctions.Domain/FinancialFunctions.Domain.csproj",
-      "msbuildProject": "../../FinancialFunctions.Domain/FinancialFunctions.Domain.csproj"
+      "path": "../../src/FinancialFunctions.Domain/FinancialFunctions.Domain.csproj",
+      "msbuildProject": "../../src/FinancialFunctions.Domain/FinancialFunctions.Domain.csproj"
     },
     "HkFinancialFunctions/1.0.1": {
       "type": "project",

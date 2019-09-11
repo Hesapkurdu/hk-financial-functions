@@ -1,6 +1,6 @@
 using System;
 using Excel.FinancialFunctions;
-using FinancialFunctions.Enums;
+using FinancialFunctions.Domain.Enums;
 using FinancialFunctions.Tests.Base;
 using FluentAssertions;
 using Xunit;
