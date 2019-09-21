@@ -1746,7 +1746,7 @@
           "bin/placeholder/FinancialFunctions.Domain.dll": {}
         }
       },
-      "HkFinancialFunctions/1.0.1": {
+      "HkFinancialFunctions/1.0.2": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
@@ -3285,7 +3285,7 @@
       ]
     },
     "System.Configuration.ConfigurationManager/4.4.0": {
-      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "sha512": "RLYB3YOmdz9dE3zMhBFGv3GF74upGjH0nF0G9lFFRLNLsCEMIpiuQsMGv2qE0qdp1JdheVNO8RIRpUKdokiK+g==",
       "type": "package",
       "path": "system.configuration.configurationmanager/4.4.0",
       "files": [
@@ -6086,7 +6086,7 @@
       "path": "../../src/FinancialFunctions.Domain/FinancialFunctions.Domain.csproj",
       "msbuildProject": "../../src/FinancialFunctions.Domain/FinancialFunctions.Domain.csproj"
     },
-    "HkFinancialFunctions/1.0.1": {
+    "HkFinancialFunctions/1.0.2": {
       "type": "project",
       "path": "../../src/FinancialFunctions/FinancialFunctions.csproj",
       "msbuildProject": "../../src/FinancialFunctions/FinancialFunctions.csproj"
@@ -6096,7 +6096,7 @@
     ".NETCoreApp,Version=v2.2": [
       "ExcelFinancialFunctions >= 2.4.0",
       "FluentAssertions >= 5.7.0",
-      "HkFinancialFunctions >= 1.0.1",
+      "HkFinancialFunctions >= 1.0.2",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
       "Microsoft.NETCore.App >= 2.2.0",
       "xunit >= 2.4.0",
@@ -6104,23 +6104,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hesapkurdu\\.nuget\\packages\\": {},
+    "C:\\Users\\Semih Senvardar\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Repos\\github\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+      "projectUniqueName": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
       "projectName": "FinancialFunctions.Tests",
-      "projectPath": "C:\\Repos\\github\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
-      "packagesPath": "C:\\Users\\Hesapkurdu\\.nuget\\packages\\",
-      "outputPath": "C:\\Repos\\github\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\obj\\",
+      "projectPath": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\FinancialFunctions.Tests.csproj",
+      "packagesPath": "C:\\Users\\Semih Senvardar\\.nuget\\packages\\",
+      "outputPath": "C:\\HesapkurduRepos\\hk-financial-functions\\tests\\FinancialFunctions.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Hesapkurdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Semih Senvardar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6128,14 +6128,13 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://repository.hesapkurdu.com:9191/nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
-              "projectPath": "C:\\Repos\\github\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj"
+            "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj": {
+              "projectPath": "C:\\HesapkurduRepos\\hk-financial-functions\\src\\FinancialFunctions\\FinancialFunctions.csproj"
             }
           }
         }
