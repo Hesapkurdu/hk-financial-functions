@@ -1,7 +1,7 @@
-﻿using System;
-using FinancialFunctions.Enums;
+﻿using FinancialFunctions.Domain.Enums;
 using FinancialFunctions.Functions;
 using FluentAssertions;
+using System;
 using Xunit;
 
 namespace FinancialFunctions.Tests

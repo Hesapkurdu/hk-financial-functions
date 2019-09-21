@@ -1,5 +1,5 @@
-﻿using FinancialFunctions.Enums;
-using System;
+﻿using System;
+using FinancialFunctions.Domain.Enums;
 
 namespace FinancialFunctions.Functions
 {

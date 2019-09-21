@@ -1,4 +1,4 @@
-﻿using FinancialFunctions.Enums;
+﻿using FinancialFunctions.Domain.Enums;
 using FinancialFunctions.Functions;
 
 namespace FinancialFunctions
