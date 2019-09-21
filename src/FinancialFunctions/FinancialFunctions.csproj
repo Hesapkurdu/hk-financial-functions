@@ -2,18 +2,19 @@
 
   <PropertyGroup>
     <PackageId>HkFinancialFunctions</PackageId>
-    <Version>1.0.2</Version>
+    <Version>2.0.1</Version>
     <Authors>Hesapkurdu RD Team</Authors>
     <Company>Hesapkurdu</Company>
     <Copyright>https://www.hesapkurdu.com/kosullar-ve-gizlilik</Copyright>
     <PackageIconUrl>https://s3-eu-west-1.amazonaws.com/dosya.hesapkurdu.com/img/logo.png</PackageIconUrl>
     <Description>Commonly used financial functions for payment plan,monthly installment,etc. calculations</Description>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FinancialFunctions.Domain\FinancialFunctions.Domain.csproj" />
+    <ProjectReference Include="..\FinancialFunctions.Domain\FinancialFunctions.Domain.csproj">
+    </ProjectReference>
   </ItemGroup>
 
 </Project>

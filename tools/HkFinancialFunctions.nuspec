@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>HkFinancialFunctions</id>
+    <version>2.0.0</version>
+    <authors>Hesapkurdu RD Team</authors>
+    <owners>Hesapkurdu RD Team</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://s3-eu-west-1.amazonaws.com/dosya.hesapkurdu.com/img/logo.png</iconUrl>
+    <description>Commonly used financial functions for payment plan,monthly installment,etc. calculations</description>
+    <copyright>https://www.hesapkurdu.com/kosullar-ve-gizlilik</copyright>
+  </metadata>
+  <files>
+    <file src="C:\HesapkurduRepos\hk-financial-functions\src\FinancialFunctions\bin\Debug\netstandard2.0\FinancialFunctions.dll" target="lib\netstandard2.0\FinancialFunctions.dll" />
+	<file src="C:\HesapkurduRepos\hk-financial-functions\src\FinancialFunctions.Domain\bin\Debug\netstandard2.0\FinancialFunctions.Domain.dll" target="lib\netstandard2.0\FinancialFunctions.Domain.dll" />
+  </files>
+</package>
