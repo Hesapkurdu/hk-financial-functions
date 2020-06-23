@@ -1,4 +1,4 @@
-HkFinancialFunctions 
+Hesapkurdu.com Financial Functions 
 ===
 Calculation Utility For Financial Operations :package:
 
